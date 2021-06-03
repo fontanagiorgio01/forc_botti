@@ -15,12 +15,13 @@ public class Forc_botti {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int a=0;
-        boolean stampa=true,
-       while(stampa=true){
-           System.out.println(+a);
-           a++;
-       }
+        int c = 1000;
+        int a = 1000;
+        while (c!=0){
+            System.out.println(a);
+            a--;
+            c--;
+        }
     }
     
 }
